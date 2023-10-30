@@ -28,13 +28,10 @@ allprojects {
 
 
 dependencies {
-    implementation(project(":better_direnv-products-goland"))
     implementation(project(":better_direnv-products-idea"))
     implementation(project(":better_direnv-products-nodejs"))
-    implementation(project(":better_direnv-products-shellscript"))
     implementation(project(":better_direnv-products-python"))
     implementation(project(":better_direnv-products-phpstorm"))
-    implementation(project(":better_direnv-products-rubymine"))
 }
 
 // Configure Gradle IntelliJ Plugin - read more: https://github.com/JetBrains/gradle-intellij-plugin
