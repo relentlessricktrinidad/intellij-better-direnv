@@ -4,3 +4,5 @@
 build
 chain.crt
 private.pem
+/modules/core/out/
+out/
