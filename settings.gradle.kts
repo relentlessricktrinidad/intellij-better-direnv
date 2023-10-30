@@ -2,10 +2,7 @@ rootProject.name = "better_direnv"
 
 include(
     "modules/core",
-    "modules/products/idea",
-    "modules/products/nodejs",
-    "modules/products/python",
-    "modules/products/phpstorm",
+    "modules/products/nodejs"
 )
 
 rootProject.children.forEach {

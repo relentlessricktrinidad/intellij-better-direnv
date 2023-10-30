@@ -1,7 +1,0 @@
-<idea-plugin>
-    <extensions defaultExtensionNs="com.intellij">
-        <phpRunConfigurationExtension
-                implementation="com.fapiko.jetbrains.plugins.better_direnv.runconfigs.PHPRunConfigurationExtension"
-                id="direnvPHPRunConfig"/>
-    </extensions>
-</idea-plugin>

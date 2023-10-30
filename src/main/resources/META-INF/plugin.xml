@@ -5,9 +5,5 @@
     <vendor>Lucas Jandrew</vendor>
 
     <depends>com.intellij.modules.platform</depends>
-
-    <depends optional="true" config-file="direnv-idea.xml">com.intellij.java</depends>
-    <depends optional="true" config-file="direnv-javascript.xml">JavaScript</depends>
-    <depends optional="true" config-file="direnv-python.xml">com.intellij.modules.python</depends>
-    <depends optional="true" config-file="direnv-phpstorm.xml">com.jetbrains.php</depends>
+    <depends config-file="direnv-javascript.xml">JavaScript</depends>
 </idea-plugin>

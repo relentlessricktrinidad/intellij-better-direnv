@@ -8,7 +8,6 @@ import com.intellij.execution.Location;
 import com.intellij.execution.configurations.GeneralCommandLine;
 import com.intellij.execution.configurations.RunnerSettings;
 import com.intellij.execution.runners.ExecutionEnvironment;
-import com.intellij.execution.ui.FragmentedSettings;
 import com.intellij.javascript.nodejs.execution.AbstractNodeTargetRunProfile;
 import com.intellij.javascript.nodejs.execution.runConfiguration.AbstractNodeRunConfigurationExtension;
 import com.intellij.javascript.nodejs.execution.runConfiguration.NodeRunConfigurationLaunchSession;
@@ -18,8 +17,6 @@ import org.jdom.Element;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class NodeRunConfiguration extends AbstractNodeRunConfigurationExtension {

@@ -9,10 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/modules/core" />
-            <option value="$PROJECT_DIR$/modules/products/idea" />
             <option value="$PROJECT_DIR$/modules/products/nodejs" />
-            <option value="$PROJECT_DIR$/modules/products/phpstorm" />
-            <option value="$PROJECT_DIR$/modules/products/python" />
           </set>
         </option>
       </GradleProjectSettings>
